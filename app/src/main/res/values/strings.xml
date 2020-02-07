@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Power Button Tile</string>
+    <string name="accessibility_service_description">Accessibility service to allow Power Button Tile to perform global actions: show system power dialog and, on Android Pie (API 28) and up, put the device to sleep, take screenshot.</string>
+    <string name="accessibility_service_label">Accessibility service</string>
+    <string name="system_power_dialog_tile_label">System power dialog</string>
+    <string name="sleep_tile_label">Sleep</string>
+    <string name="screenshot_tile_label">Screenshot</string>
+    <string name="settings_tile_visibility">Tile visibility</string>
+    <string name="settings_component_summary_off">Hide the tile in the quick settings layout</string>
+    <string name="settings_component_summary_on">Show the tile in the quick settings layout</string>
+    <string name="settings_accessibility_service_summary_off">Disabled. The app is not allowed to perform any global action</string>
+    <string name="settings_accessibility_service_summary_on">Enabled. The app is allowed to perform any global action</string>
+    <string name="message_something_went_wrong">Something went wrong</string>
+    <string name="message_please_try_again">Please try again</string>
+    <string name="message_accessibility_service_disabled">Accessibility service is disabled.\nThe app is not allowed to perform any global action.\nPlease go back and enable accessibility service.</string>
+    <string name="settings_action">Action</string>
+    <string name="settings_screenshot_tile_action_collapse_take_screenshot">Collapse quick settings panel and take screenshot</string>
+    <string name="settings_screenshot_tile_action_take_screenshot">Take screenshot without collapsing the quick settings panel</string>
+    <string name="settings_system_power_dialog_tile_action_collapse_show_dialog">Collapse quick settings panel and open system power dialog</string>
+    <string name="settings_system_power_dialog_tile_action_show_dialog">Open system power dialog without collapsing the quick settings panel</string>
+
+
+    <string name="key_component_screenshot_tile" translatable="false">key_component_screenshot_tile</string>
+    <string name="key_component_sleep_tile" translatable="false">key_component_sleep_tile</string>
+    <string name="key_component_system_power_dialog_tile" translatable="false">key_component_system_power_dialog_tile</string>
+    <string name="key_component_accessibility_service" translatable="false">key_component_accessibility_service</string>
+    <string name="key_settings_category_screenshot" translatable="false">key_settings_category_screenshot</string>
+    <string name="key_settings_category_sleep" translatable="false">key_settings_category_sleep</string>
+    <string name="key_settings_category_system_power_dialog" translatable="false">key_settings_category_system_power_dialog</string>
+    <string name="key_screenshot_tile_action" translatable="false">key_screenshot_tile_action</string>
+    <string name="key_screenshot_tile_action_collapse_take_screenshot" translatable="false">key_screenshot_tile_action_collapse_take_screenshot</string>
+    <string name="key_screenshot_tile_action_take_screenshot" translatable="false">key_screenshot_tile_action_take_screenshot</string>
+    <string name="key_system_power_dialog_tile_action" translatable="false">key_system_power_dialog_tile_action</string>
+    <string name="key_system_power_dialog_tile_action_collapse_show_dialog" translatable="false">key_system_power_dialog_tile_action_collapse_show_dialog</string>
+    <string name="key_system_power_dialog_tile_action_show_dialog" translatable="false">key_system_power_dialog_tile_action_show_dialog</string>
+    <string name="monospace" translatable="false">monospace</string>
+
+</resources>

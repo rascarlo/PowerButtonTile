@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--screenshot action-->
+    <string-array name="settings_screenshot_tile_action_entries">
+        <item>@string/settings_screenshot_tile_action_collapse_take_screenshot</item>
+        <item>@string/settings_screenshot_tile_action_take_screenshot</item>
+    </string-array>
+    <string-array name="settings_screenshot_tile_action_entry_values">
+        <item>@string/key_screenshot_tile_action_collapse_take_screenshot</item>
+        <item>@string/key_screenshot_tile_action_take_screenshot</item>
+    </string-array>
+    <!--system power dialog action-->
+    <string-array name="settings_system_power_dialog_tile_action_entries">
+        <item>@string/settings_system_power_dialog_tile_action_collapse_show_dialog</item>
+        <item>@string/settings_system_power_dialog_tile_action_show_dialog</item>
+    </string-array>
+    <string-array name="settings_system_power_dialog_tile_action_entry_values">
+        <item>@string/key_system_power_dialog_tile_action_collapse_show_dialog</item>
+        <item>@string/key_system_power_dialog_tile_action_show_dialog</item>
+    </string-array>
+</resources>
