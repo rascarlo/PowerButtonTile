@@ -18,7 +18,8 @@
     <string name="settings_screenshot_tile_action_take_screenshot">Take screenshot without collapsing the quick settings panel</string>
     <string name="settings_system_power_dialog_tile_action_collapse_show_dialog">Collapse quick settings panel and open system power dialog</string>
     <string name="settings_system_power_dialog_tile_action_show_dialog">Open system power dialog without collapsing the quick settings panel</string>
-
+    <string name="links">Links</string>
+    <string name="source">Source</string>
 
     <string name="key_component_screenshot_tile" translatable="false">key_component_screenshot_tile</string>
     <string name="key_component_sleep_tile" translatable="false">key_component_sleep_tile</string>
@@ -34,5 +35,11 @@
     <string name="key_system_power_dialog_tile_action_collapse_show_dialog" translatable="false">key_system_power_dialog_tile_action_collapse_show_dialog</string>
     <string name="key_system_power_dialog_tile_action_show_dialog" translatable="false">key_system_power_dialog_tile_action_show_dialog</string>
     <string name="monospace" translatable="false">monospace</string>
-
+    <string name="accessibility_service" translatable="false">AccessibilityService</string>
+    <string name="tile" translatable="false">Tile</string>
+    <string name="tile_service" translatable="false">TileService</string>
+    <string name="source_link" translatable="false">https://github.com/rascarlo/PowerButtonTile</string>
+    <string name="accessibility_service_documentation_link" translatable="false">https://developer.android.com/reference/android/accessibilityservice/AccessibilityService</string>
+    <string name="tile_documentation_link" translatable="false">https://developer.android.com/reference/android/service/quicksettings/Tile</string>
+    <string name="tile_service_documentation_link" translatable="false">https://developer.android.com/reference/android/service/quicksettings/TileService</string>
 </resources>

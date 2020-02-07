@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:app="http://schemas.android.com/apk/res-auto">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <SwitchPreference
         app:icon="@drawable/ic_accessibility_white_24dp"
@@ -68,4 +69,44 @@
             app:title="@string/settings_action" />
     </PreferenceCategory>
 
+    <!--links-->
+    <PreferenceCategory
+        app:icon="@drawable/ic_link_white_24dp"
+        app:title="@string/links">
+        <!--source-->
+        <Preference
+            app:summary="@string/source_link"
+            app:title="@string/source">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/source_link" />
+        </Preference>
+
+        <!--accessibility service documentation-->
+        <Preference
+            app:summary="@string/accessibility_service_documentation_link"
+            app:title="@string/accessibility_service">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/accessibility_service_documentation_link" />
+        </Preference>
+
+        <!--tile documentation-->
+        <Preference
+            app:summary="@string/tile_documentation_link"
+            app:title="@string/tile">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/tile_documentation_link" />
+        </Preference>
+
+        <!--tileservice documentation-->
+        <Preference
+            app:summary="@string/tile_service_documentation_link"
+            app:title="@string/tile_service">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="@string/tile_service_documentation_link" />
+        </Preference>
+    </PreferenceCategory>
 </PreferenceScreen>
