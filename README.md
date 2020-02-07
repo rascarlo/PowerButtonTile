@@ -1,3 +1,5 @@
+<img src="https://github.com/rascarlo/PowerButtonTile/blob/master/fastlane/metadata/android/en-US/images/featureGraphic.png" width="640" height="333" />
+
 # PowerButtonTile
 <p>Simple application to add up to 3 quick settings tiles to the quick settings layout.</p>
 <p>The app makes use of the accessibility service to provide quick settings tiles to perform global actions: screenshot (API level 28), sleep (API level 28) and system power dialog (API level 21).</p>
