@@ -1,0 +1,2 @@
+Simple application to add up to 3 quick settings tiles to the quick settings layout.
+The app makes use of the accessibility service to provide quick settings tiles to perform global actions: screenshot (API level 28), sleep (API level 28) and system power dialog (API level 21).
