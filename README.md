@@ -1,0 +1,12 @@
+# PowerButtonTile
+<p>Simple application to add up to 3 quick settings tiles to the quick settings layout.</p>
+<p>The app makes use of the accessibility service to provide quick settings tiles to perform global actions: screenshot (API level 28), sleep (API level 28) and system power dialog (API level 21).</p>
+<p>System power dialog (GLOBAL_ACTION_POWER_DIALOG) has been added in API level 21 (https://developer.android.com/reference/android/accessibilityservice/AccessibilityService#GLOBAL_ACTION_POWER_DIALOG).</p>
+<p>Sleep (GLOBAL_ACTION_LOCK_SCREEN) has been added in API level 28 (https://developer.android.com/reference/android/accessibilityservice/AccessibilityService#GLOBAL_ACTION_LOCK_SCREEN).</p>
+<p>Screenshot (GLOBAL_ACTION_TAKE_SCREENSHOT) has been added in API level 28 (https://developer.android.com/reference/android/accessibilityservice/AccessibilityService#GLOBAL_ACTION_TAKE_SCREENSHOT).<br>
+
+
+## Android Developers Documentation</p>
+- Accessibility service: https://developer.android.com/reference/android/accessibilityservice/AccessibilityService
+- Tile: https://developer.android.com/reference/android/service/quicksettings/Tile
+- TileService: https://developer.android.com/reference/android/service/quicksettings/TileService
