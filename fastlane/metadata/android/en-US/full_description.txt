@@ -4,4 +4,7 @@ System power dialog (GLOBAL_ACTION_POWER_DIALOG) has been added in API level 21 
 Sleep (GLOBAL_ACTION_LOCK_SCREEN) has been added in API level 28 (https://developer.android.com/reference/android/accessibilityservice/AccessibilityService#GLOBAL_ACTION_LOCK_SCREEN).
 Screenshot (GLOBAL_ACTION_TAKE_SCREENSHOT) has been added in API level 28 (https://developer.android.com/reference/android/accessibilityservice/AccessibilityService#GLOBAL_ACTION_TAKE_SCREENSHOT).
 
-Android Developers Documentation: https://developer.android.com/reference/android/accessibilityservice/AccessibilityService
+Android Developers Documentation
+- Accessibility service: https://developer.android.com/reference/android/accessibilityservice/AccessibilityService
+- Tile: https://developer.android.com/reference/android/service/quicksettings/Tile
+- TileService: https://developer.android.com/reference/android/service/quicksettings/TileService
